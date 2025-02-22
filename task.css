@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    max-width: 400px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #FF6B82;
+}
+
+.offer-box {
+    border: 1px solid #ddd;
+    padding: 25px;
+    margin-bottom: 20px;
+    position: relative;
+    /* background-color: #fff9fa; */
+    border: 2px solid #FF6B82;
+}
+
+.popular {
+    border: 2px solid #FF6B82;
+    position: relative;
+    padding-top: 20px;
+}
+
+.popular .badge {
+    position: absolute;
+    top: -10px;
+    right: -15%;
+    transform: translateX(-50%);
+    background-color: #FF6B82;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discount {
+    background-color: #FF6B82;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    margin-left: 5px;
+}
+
+.price {
+    float: right;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.old-price {
+    font-size: 12px;
+    color: #aaa;
+    text-decoration: line-through;
+    margin: 7%;
+}
+
+.size-color {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 60%;
+}
+
+select {
+    padding: 5px;
+    width: 48%;
+    font-size: 12px;
+}
+
+.size-color select {
+    margin-left: 4px;
+}
+
+.free-delivery {
+    color: #FF6B82;
+}
+
+.count {
+    font-size: 11px;
+    margin: 5px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: #FF6B82;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.powered {
+    text-align: end;
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 10px;
+}
+
+.radioBtn {
+    accent-color: #ff3f80;
+
+}
+
+.hidden-section {
+    margin-left: 1rem;
+    display: none;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.bogo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: lightgray;
+}
+
+.bogo-text {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #ff6779;
+    font-size: 18px;
+}
+
+.first_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Standard {
+    font-size: 15px;
+    margin: 6px;
+}
+
+.sizeColor {
+    font-size: 11px;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
